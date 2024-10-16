@@ -1841,3 +1841,69 @@ form label {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.close1 {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 40px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 1001;
+  transition: color 0.3s ease;
+}
+
+.close1:hover {
+  color: #cccccc;
+}
+
+
+.prev, .next {
+  position: fixed;
+  top: 50%;
+  font-size: 40px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  transform: translateY(-50%);
+  z-index: 1001;
+  transition: color 0.3s ease;
+}
+
+.prev {
+  left: 10px;
+}
+
+.prev:hover {
+  color: #cccccc;
+}
+
+.next {
+  right: 10px;
+}
+
+.next:hover {
+  color: #cccccc;
+}
