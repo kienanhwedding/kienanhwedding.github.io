@@ -5,6 +5,24 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'SVN-Magellin';
+  src: url("../fonts/SVN-Magellin.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DC';
+  src: url("../fonts/DFVN-Desirable-Calligraphy.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SVN-Prinmark';
+  src: url("../fonts/SVN-Primark.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
 /* =======================================================
 *
 * 	Template Style 
@@ -845,7 +863,7 @@ form label {
   margin-bottom: 0px;
   font-size: 100px;
   line-height: 1.5;
-  font-family: "Sacramento", Arial, serif;
+  font-family: "SVN-Prinmark", "DC", "SVN-Magellin", "Sacramento", Arial, serif;
 }
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h1,
@@ -998,6 +1016,7 @@ form label {
 #fh5co-event,
 #fh5co-couple-story,
 #fh5co-couple,
+#fh5co-wedding-gift-box,
 #fh5co-gallery,
 .fh5co-section {
   padding: 7em 0;
@@ -1011,6 +1030,7 @@ form label {
   #fh5co-event,
   #fh5co-couple-story,
   #fh5co-couple,
+  #fh5co-wedding-gift-box,
   #fh5co-gallery,
   .fh5co-section {
     padding: 3em 0;
@@ -1183,7 +1203,7 @@ form label {
   line-height: 1.5;
   font-weight: bold;
   color: #F14E95;
-  font-family: "Sacramento", Arial, serif;
+  font-family: "SVN-Prinmark", "Sacramento", Arial, serif;
 }
 @media screen and (max-width: 768px) {
   .fh5co-heading h2 {
@@ -1907,4 +1927,50 @@ form label {
 
 .next:hover {
   color: #cccccc;
+}
+
+.display-center {
+  display: flex;
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+  }
+
+}
+.card {
+  border: 2px solid #d8b8b8;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.qr-code {
+  display: flex;
+  justify-content: center;
+}
+.qr-code img {
+  width: 150px;
+  height: 150px;
+}
+.card-info {
+  margin-top: 15px;
+  text-align: left;
+  font-size: 16px;
+}
+.card-info b {
+  color: #c44;
 }
