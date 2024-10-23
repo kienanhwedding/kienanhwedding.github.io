@@ -56,14 +56,14 @@ body {
 }
 
 a {
-    color: #F14E95;
+    color: #b35757d1;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
 }
 
 a:hover, a:active, a:focus {
-    color: #F14E95;
+    color: #b35757d1;
     outline: none;
     text-decoration: none;
 }
@@ -81,17 +81,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
     color: #fff;
-    background: #F14E95;
+    background: #b35757d1;
 }
 
 ::-moz-selection {
     color: #fff;
-    background: #F14E95;
+    background: #b35757d1;
 }
 
 ::selection {
     color: #fff;
-    background: #F14E95;
+    background: #b35757d1;
 }
 
 .fh5co-nav {
@@ -223,7 +223,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-nav ul li.btn-cta a {
-    color: #F14E95;
+    color: #b35757d1;
 }
 
 .fh5co-nav ul li.btn-cta a span {
@@ -859,7 +859,7 @@ h1, h2, h3, h4, h5, h6, figure {
     display: inline-block;
     zoom: 1;
     *display: inline;
-    color: #F14E95;
+    color: #b35757d1;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -881,7 +881,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-contact-info ul li:before {
-    color: #F14E95;
+    color: #b35757d1;
     position: absolute;
     left: 0;
     top: .05em;
@@ -995,7 +995,7 @@ form label {
 .fh5co-cover .display-tc .btn {
     padding: 15px 20px;
     background: #fff !important;
-    color: #F14E95;
+    color: #b35757d1;
     border: none !important;
     font-size: 14px;
     text-transform: uppercase;
@@ -1065,7 +1065,7 @@ form label {
     display: inline-block;
     width: 100px;
     height: 100px;
-    background: rgba(241, 78, 149, 0.8);
+    background: #b35757d1;
     margin: 0 4px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -1172,7 +1172,7 @@ form label {
     font-size: 20px;
     background: #fff;
     padding: 20px;
-    color: #F14E95;
+    color: #b35757d1;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -1198,7 +1198,7 @@ form label {
 
 .couple-half h3 {
     font-family: "Sacramento", Arial, serif;
-    color: #F14E95;
+    color: #b35757d1;
     font-size: 30px;
 }
 
@@ -1305,7 +1305,7 @@ form label {
     height: 90px;
     font-size: 40px;
     line-height: 40px;
-    color: #F14E95;
+    color: #b35757d1;
 }
 
 .feature-center p, .feature-center h3 {
@@ -1331,7 +1331,7 @@ form label {
     margin-bottom: 10px;
     line-height: 1.5;
     font-weight: bold;
-    color: #F14E95;
+    color: #b35757d1;
     font-family: "AlexBrush-Regular", "Sacramento", Arial, serif;
 }
 
@@ -1372,7 +1372,7 @@ form label {
 }
 
 #fh5co-testimonial .wrap-testimony .testimony-slide span a.twitter {
-    color: #F14E95;
+    color: #b35757d1;
     font-weight: 300;
 }
 
@@ -1477,7 +1477,7 @@ form label {
     display: table-cell;
     vertical-align: middle;
     font-size: 30px;
-    color: #F14E95;
+    color: #b35757d1;
 }
 
 .feature-left .feature-copy {
@@ -1556,7 +1556,7 @@ form label {
 #fh5co-started .btn {
     height: 54px;
     border: none !important;
-    background: #F14E95;
+    background: #b35757d1;
     color: #fff;
     font-size: 16px;
     text-transform: uppercase;
@@ -1608,7 +1608,7 @@ form label {
 
 .owl-carousel .owl-controls .owl-dot.active span {
     background: transparent;
-    border: 2px solid #F14E95;
+    border: 2px solid #b35757d1;
 }
 
 #fh5co-offcanvas {
@@ -1884,9 +1884,9 @@ form label {
 }
 
 .btn-primary {
-    background: #F14E95;
+    background: #b35757d1;
     color: #fff;
-    border: 2px solid #F14E95;
+    border: 2px solid #b35757d1;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
@@ -1896,12 +1896,12 @@ form label {
 
 .btn-primary.btn-outline {
     background: transparent;
-    color: #F14E95;
-    border: 2px solid #F14E95;
+    color: #b35757d1;
+    border: 2px solid #b35757d1;
 }
 
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-    background: #F14E95;
+    background: #b35757d1;
     color: #fff;
 }
 
@@ -2048,7 +2048,7 @@ form label {
 .form-control:active, .form-control:focus {
     outline: none;
     box-shadow: none;
-    border-color: #F14E95;
+    border-color: #b35757d1;
 }
 
 .row-pb-md {
@@ -2190,4 +2190,13 @@ form label {
 
 .card-info b {
     color: #c44;
+}
+
+.view-google-map {
+    color: #7facec;
+    font-size: 20px;
+}
+
+.view-google-map:hover {
+    color: #7fecec;
 }
