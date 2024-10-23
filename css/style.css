@@ -2200,3 +2200,60 @@ form label {
 .view-google-map:hover {
     color: #7fecec;
 }
+
+.calendar-container {
+    width: 65%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.calendar-header {
+    display: flex;
+}
+
+.calendar-header h1 {
+    font-family: "AlexBrush-Regular", 'Cursive', sans-serif;
+    font-size: 60px;
+    color: #4d4d4d;
+    margin-bottom: 30px;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 5px;
+    margin: 20px 0;
+}
+
+.calendar-day-name {
+    color: #666;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.calendar-day {
+    padding: 10px;
+    background-color: #fff;
+    color: #666;
+    font-size: 25px;
+}
+
+.calendar-heart {
+    color: white;
+    background-color: #984c4d;
+    border-radius: 50%;
+    position: relative;
+}
+
+.calendar-footer {
+    display: flex;
+    justify-content: end;
+}
+
+.calendar-footer p {
+    margin-top: 25px;
+    font-size: 25px;
+    color: #4d4d4d;
+}
