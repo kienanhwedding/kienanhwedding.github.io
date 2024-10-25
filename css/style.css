@@ -1123,6 +1123,7 @@ form label {
 #fh5co-couple,
 #fh5co-wedding-gift-box,
 #fh5co-gallery,
+#fh5co-intro,
 .fh5co-section {
     padding: 7em 0;
     clear: both;
@@ -1138,6 +1139,7 @@ form label {
     #fh5co-couple,
     #fh5co-wedding-gift-box,
     #fh5co-gallery,
+    #fh5co-intro,
     .fh5co-section {
         padding: 3em 0;
     }
@@ -2266,4 +2268,121 @@ form label {
     display: flex;
     justify-content: end;
     margin-right: 40px !important;
+}
+
+@media screen and (max-width: 1000px) {
+    .calendar-header h1 {
+        font-size: 40px;
+    }
+
+    .calendar-footer p {
+        font-size: 20px;
+    }
+
+    .calendar-day-name {
+        font-size: 20px;
+    }
+
+    .calendar-day {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .calendar-container {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .calendar-container {
+        width: 100%;
+    }
+
+    .calendar-header h1 {
+        font-size: 32px;
+    }
+
+    .calendar-footer p {
+        font-size: 16px;
+    }
+
+    .calendar-day-name {
+        font-size: 16px;
+    }
+
+    .calendar-day {
+        font-size: 16px;
+    }
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.profile-card {
+    display: flex;
+    background-color: white;
+    overflow: hidden;
+}
+
+.profile-image {
+    flex: 1;
+}
+
+.profile-image img {
+    width: 100%;
+    aspect-ratio: 1 / 1.5;
+    object-fit: cover;
+}
+
+.profile-content {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-content h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #333;
+    font-family: "AlexBrush-Regular", "Sacramento", Arial, serif;
+}
+
+.profile-content p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.pd-20 {
+    padding: 20px;
+}
+
+.align-end {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+@media screen and (max-width: 768px){
+    .profile-content p {
+        font-size: 14px;
+    }
+
+    .profile-content h2 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .profile-content p {
+        font-size: 10px;
+    }
+
+    .profile-content h2 {
+        font-size: 24px;
+    }
 }
