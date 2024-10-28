@@ -2203,8 +2203,8 @@ form label {
 }
 
 .calendar-container {
-    width: 65%;
-    margin: 50px auto;
+    width: 50%;
+    margin: auto;
     padding: 20px;
     background-color: #fff;
     text-align: center;
@@ -2230,15 +2230,21 @@ form label {
 
 .calendar-day-name {
     color: #666;
-    padding: 5px;
     font-size: 25px;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .calendar-day {
-    padding: 10px;
     background-color: #fff;
     color: #666;
     font-size: 25px;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .calendar-heart {
@@ -2288,9 +2294,9 @@ form label {
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1000px){
     .calendar-container {
-        width: 80%;
+        width: 70%;
     }
 }
 
