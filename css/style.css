@@ -970,7 +970,7 @@ form label {
     #fh5co-header .display-tc h1,
     #fh5co-counter .display-tc h1,
     .fh5co-cover .display-tc h1 {
-        font-size: 30px;
+        font-size: 40px;
     }
 }
 
@@ -1112,6 +1112,26 @@ form label {
     text-transform: uppercase;
     font-size: 12px;
     /* words */
+}
+
+@media screen and (max-width: 480px) {
+    .simply-countdown > .simply-section {
+        width: 70px;
+        height: 70px;
+    }
+
+    .simply-countdown > .simply-section > div {
+        width: 70px;
+        height: 70px;
+    }
+
+    .simply-countdown > .simply-section .simply-amount {
+        font-size: 24px;
+    }
+
+    .simply-countdown > .simply-section .simply-word {
+        font-size: 8px;
+    }
 }
 
 #fh5co-testimonial,
@@ -2169,8 +2189,13 @@ form label {
     border-radius: 10px;
     padding: 20px;
     background-color: white;
-    width: 400px;
+    max-width: 400px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    h3 {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .qr-code {
@@ -2391,4 +2416,8 @@ form label {
     .profile-content h2 {
         font-size: 24px;
     }
+}
+
+.name-container {
+    margin-bottom: 50px;
 }
