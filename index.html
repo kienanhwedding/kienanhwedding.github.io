@@ -168,6 +168,7 @@
                     <p>THANK YOU!</p>
                 </div>
             </div>
+            <div class="calendar-footer-below animate-box">Sự hiện diện của mọi người là lời chúc tốt đẹp nhất cho gia đình chúng tôi!</div>
         </div>
     </div>
 
@@ -412,18 +413,22 @@
 
 <script>
     document.querySelector('a[href="#fh5co-event"]').addEventListener('click', function (e) {
+        console.log(1)
         e.preventDefault();
         document.querySelector('#fh5co-event').scrollIntoView({behavior: 'smooth'});
     });
     document.querySelector('a[href="#fh5co-gallery"]').addEventListener('click', function (e) {
+        console.log(2)
         e.preventDefault();
         document.querySelector('#fh5co-gallery').scrollIntoView({behavior: 'smooth'});
     });
     document.querySelector('a[href="#fh5co-wedding-gift-box"]').addEventListener('click', function (e) {
+        console.log(3)
         e.preventDefault();
         document.querySelector('#fh5co-wedding-gift-box').scrollIntoView({behavior: 'smooth'});
     });
     document.querySelector('a[href="#fh5co-intro"]').addEventListener('click', function (e) {
+        console.log(4)
         e.preventDefault();
         document.querySelector('#fh5co-intro').scrollIntoView({behavior: 'smooth'});
     });

@@ -70,8 +70,10 @@
 
 
 			if ( $('body').hasClass('overflow offcanvas') ) {
+				console.log(1)
 				$('body').removeClass('overflow offcanvas');
 			} else {
+				console.log(2)
 				$('body').addClass('overflow offcanvas');
 			}
 			$this.toggleClass('active');
@@ -80,7 +82,36 @@
 		});
 	};
 
+	var listenMenuClick = function () {
+		document.querySelector('a[href="#fh5co-event"]').addEventListener('click', function (e) {
+			e.preventDefault();
+			closeDrawer();
+			document.querySelector('#fh5co-event').scrollIntoView({behavior: 'smooth'});
+		});
+		document.querySelector('a[href="#fh5co-gallery"]').addEventListener('click', function (e) {
+			e.preventDefault();
+			closeDrawer();
+			document.querySelector('#fh5co-gallery').scrollIntoView({behavior: 'smooth'});
+		});
+		document.querySelector('a[href="#fh5co-wedding-gift-box"]').addEventListener('click', function (e) {
+			e.preventDefault();
+			closeDrawer();
+			document.querySelector('#fh5co-wedding-gift-box').scrollIntoView({behavior: 'smooth'});
+		});
+		document.querySelector('a[href="#fh5co-intro"]').addEventListener('click', function (e) {
+			e.preventDefault();
+			closeDrawer();
+			document.querySelector('#fh5co-intro').scrollIntoView({behavior: 'smooth'});
+		});
+	}
 
+	var closeDrawer = function () {
+		if ( $('body').hasClass('offcanvas') ) {
+
+			$('body').removeClass('offcanvas');
+			$('.js-fh5co-nav-toggle').removeClass('active');
+		}
+	}
 
 	var contentWayPoint = function() {
 		var i = 0;
@@ -226,6 +257,7 @@
 		loaderPage();
 		counter();
 		counterWayPoint();
+		listenMenuClick();
 	});
 
 
