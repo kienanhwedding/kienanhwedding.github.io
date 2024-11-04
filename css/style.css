@@ -2189,12 +2189,13 @@ form label {
     border-radius: 10px;
     padding: 20px;
     background-color: white;
-    max-width: 400px;
+    width: 340px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
     h3 {
         display: flex;
         justify-content: center;
+        font-size: 22px;
     }
 }
 
@@ -2212,14 +2213,19 @@ form label {
     margin-top: 15px;
     text-align: left;
     font-size: 16px;
+
+    p {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
 }
 
 .card-info b {
-    color: #c44;
+    color: #b35757d1;
 }
 
 .card-info b > a {
-    color: #c44;
+    color: #b35757d1;
 }
 
 .view-google-map {
@@ -2463,4 +2469,8 @@ form label {
     .calendar-footer-below {
         font-size: 24px;
     }
+}
+
+.color-black {
+    color: black !important;
 }
