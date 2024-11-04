@@ -456,7 +456,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-event .event-wrap {
     border: 2px solid rgba(255, 255, 255, 0.5);
     background: rgba(255, 255, 255, 0.1);
-    padding: 30px;
+    padding: 20px;
     width: 100%;
     float: left;
     -webkit-border-radius: 4px;
@@ -1161,7 +1161,7 @@ form label {
     #fh5co-gallery,
     #fh5co-intro,
     .fh5co-section {
-        padding: 3em 0;
+        padding: 5em 0;
     }
 }
 
@@ -2218,9 +2218,13 @@ form label {
     color: #c44;
 }
 
+.card-info b > a {
+    color: #c44;
+}
+
 .view-google-map {
     color: #7facec;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .view-google-map:hover {
@@ -2237,12 +2241,13 @@ form label {
 
 .calendar-header {
     display: flex;
+    margin-top: 60px;
 }
 
 .calendar-header h1 {
     font-family: "AlexBrush-Regular", 'Cursive', sans-serif;
     font-size: 60px;
-    color: #4d4d4d;
+    color: #000;
     margin-bottom: 30px;
 }
 
@@ -2254,7 +2259,7 @@ form label {
 }
 
 .calendar-day-name {
-    color: #666;
+    color: #000;
     font-size: 25px;
     aspect-ratio: 1 / 1;
     display: flex;
@@ -2264,7 +2269,7 @@ form label {
 
 .calendar-day {
     background-color: #fff;
-    color: #666;
+    color: #000;
     font-size: 25px;
     aspect-ratio: 1 / 1;
     display: flex;
@@ -2287,7 +2292,7 @@ form label {
 .calendar-footer p {
     margin-top: 25px;
     font-size: 25px;
-    color: #4d4d4d;
+    color: #000;
 }
 
 .h1-tk {
@@ -2357,6 +2362,7 @@ form label {
     display: flex;
     background-color: white;
     overflow: hidden;
+    align-items: center;
 }
 
 .profile-image {
@@ -2397,7 +2403,7 @@ form label {
 .profile-content p {
     font-size: 16px;
     margin-bottom: 10px;
-    color: #666;
+    color: #000;
 }
 
 .pd-20 {
@@ -2444,4 +2450,17 @@ form label {
     font-size: 32px;
     font-family: "AlexBrush-Regular", "Sacramento", Arial, serif;
     text-align: center;
+    color: #000;
+}
+
+@media screen and (max-width: 1000px) {
+    .calendar-footer-below {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .calendar-footer-below {
+        font-size: 24px;
+    }
 }

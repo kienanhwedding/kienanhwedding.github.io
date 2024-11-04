@@ -72,6 +72,9 @@
                 <div class="col-xs-10 text-right menu-1">
                     <ul>
                         <li>
+                            <a href="#fh5co-calendar">Calendar</a>
+                        </li>
+                        <li>
                             <a href="#fh5co-intro">Giới thiệu</a>
                         </li>
                         <li>
@@ -186,7 +189,7 @@
                     </div>
                     <div class="profile-content">
                         <div class="pd-20">
-                            <h2>Giới thiệu Chú Rể:</h2>
+                            <h2>Chú Rể:</h2>
                             <p>Chàng trai là một lập trình viên (developer) kiên nhẫn và chu đáo. Anh ấy có thể kiên nhẫn sửa từng dòng code và cũng đủ kiên nhẫn để ‘chỉnh sửa’ những khác biệt trong tình yêu của mình với Lan Anh. Tình yêu của họ giống như một dự án phần mềm – nhiều lần ‘debug’, nhiều lần ‘update’, nhưng luôn tốt đẹp hơn theo thời gian.</p>
                         </div>
                     </div>
@@ -195,7 +198,7 @@
                 <div class="profile-card animate-box" data-animate-effect="fadeInRight">
                     <div class="profile-content">
                         <div class="pd-20 align-end">
-                            <h2>Giới thiệu Cô Dâu:</h2>
+                            <h2>Cô Dâu:</h2>
                             <p>Cô gái đáng yêu và hoạt bát là người thích đi tìm những lỗi sai dù là nhỏ nhất (tester), cả trong công việc lẫn trong cuộc sống. Với skill bắt lỗi ‘vô tình tìm thấy bug’, cô luôn khiến đồng nghiệp có thêm nhiều sự bất ngờ. Nhưng trong cuộc sống, Lan Anh lại là người vui vẻ, lạc quan, luôn đem đến tiếng cười cho mọi người xung quanh. Ngày hôm nay, cô ấy hạnh phúc khi tìm thấy 'dev độc quyền' hoàn hảo – một ‘dev’ sẵn sàng sửa chữa và bao dung mọi lỗi của cô gái ấy, cả trong công việc lẫn trong tình yêu.</p>
                         </div>
                     </div>
@@ -224,11 +227,13 @@
                                     <h3>Tiệc cưới</h3>
                                     <div class="event-col">
                                         <i class="icon-clock"></i>
-                                        <span>Đón Khách 10:30 AM</span>
+                                        <span>Đón Khách:</span>
+                                        <span>10:30 AM</span>
                                     </div>
                                     <div class="event-col">
                                         <i class="icon-calendar"></i>
-                                        <span>Chủ nhật 17/11/2024</span>
+                                        <span>Chủ nhật:</span>
+                                        <span>17/11/2024</span>
                                     </div>
                                     <div>
                                         <i class="fas fa-map-marker-alt"></i>
@@ -411,23 +416,23 @@
 </script>
 
 <script>
+    document.querySelector('a[href="#fh5co-calendar"]').addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector('#fh5co-calendar').scrollIntoView({behavior: 'smooth'});
+    });
     document.querySelector('a[href="#fh5co-event"]').addEventListener('click', function (e) {
-        console.log(1)
         e.preventDefault();
         document.querySelector('#fh5co-event').scrollIntoView({behavior: 'smooth'});
     });
     document.querySelector('a[href="#fh5co-gallery"]').addEventListener('click', function (e) {
-        console.log(2)
         e.preventDefault();
         document.querySelector('#fh5co-gallery').scrollIntoView({behavior: 'smooth'});
     });
     document.querySelector('a[href="#fh5co-wedding-gift-box"]').addEventListener('click', function (e) {
-        console.log(3)
         e.preventDefault();
         document.querySelector('#fh5co-wedding-gift-box').scrollIntoView({behavior: 'smooth'});
     });
     document.querySelector('a[href="#fh5co-intro"]').addEventListener('click', function (e) {
-        console.log(4)
         e.preventDefault();
         document.querySelector('#fh5co-intro').scrollIntoView({behavior: 'smooth'});
     });

@@ -83,6 +83,11 @@
 	};
 
 	var listenMenuClick = function () {
+		document.querySelector('a[href="#fh5co-calendar"]').addEventListener('click', function (e) {
+			e.preventDefault();
+			closeDrawer();
+			document.querySelector('#fh5co-calendar').scrollIntoView({behavior: 'smooth'});
+		});
 		document.querySelector('a[href="#fh5co-event"]').addEventListener('click', function (e) {
 			e.preventDefault();
 			closeDrawer();
