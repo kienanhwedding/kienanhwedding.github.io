@@ -2369,6 +2369,18 @@ form label {
     object-fit: cover;
 }
 
+@media screen and (max-width: 480px){
+    .profile-image img {
+        aspect-ratio: 3 / 7;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .profile-image img {
+        aspect-ratio: 1 / 2;
+    }
+}
+
 .profile-content {
     flex: 2;
     display: flex;
@@ -2390,6 +2402,10 @@ form label {
 
 .pd-20 {
     padding: 20px;
+}
+
+.profile-content > .pd-20 > p {
+    text-align: justify;
 }
 
 .align-end {
